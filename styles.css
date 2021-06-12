@@ -1,5 +1,6 @@
 body {
   margin: 8px 0 0 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 .hamburgermenu {
@@ -88,14 +89,14 @@ textarea:nth-of-type(2) {
   justify-content: space-evenly;
 }
 .overview {
-  width: 50%;
+  width: 30%;
   padding-right: 5%;
 }
 .overview p {
   line-height: 1.5;
 }
 .youget {
-  width: 50%;
+  width: 70%;
 }
 .youget p:nth-of-type(2) {
   text-decoration: underline;
@@ -116,6 +117,7 @@ textarea:nth-of-type(2) {
 }
 #third {
   background-color: #00838f;
+  
 }
 #fourth {
   background-color: #3c4750;
@@ -130,7 +132,7 @@ textarea:nth-of-type(2) {
   box-shadow: 4px 4px 8px rgb(214, 219, 217);
   justify-content: left;
   height: 40%;
-  width: 46%;
+  width: 49%;
   align-items: center;
   background-color: white;
 }
@@ -140,6 +142,7 @@ textarea:nth-of-type(2) {
   float: right;
   margin: 27px 0;
   left: 15px;
+  padding: 5px;
   border: 1px solid rgb(172, 175, 174);
   background-color: white;
 }
@@ -217,8 +220,7 @@ form {
 .fourthcontainer {
   margin: auto 5%;
 }
-.fourthcontainer img,
-.fourthcontainer p {
+.fourthcontainer img:not(:nth-of-type(1)){
   margin-left: 20px;
 }
 .first_in_four {
@@ -279,7 +281,7 @@ form {
   }
 }
 
-@media (max-width: 423px) {
+@media (max-width: 490px) {
   input {
     width: 100%;
   }
@@ -308,7 +310,7 @@ form {
     width: 100%;
   }
 }
-@media (max-width: 446px) {
+@media (max-width: 554px) {
   .fancy {
     flex-direction: column;
   }
